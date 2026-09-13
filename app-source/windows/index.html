@@ -1,0 +1,12 @@
+<!doctype html><html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width"><title>Mayhem Pocket</title><link rel="stylesheet" href="style.css"></head>
+<body><header><img id="championIcon"><div class="search"><small>MAYHEM POCKET</small><input id="champion" list="champions" placeholder="Type a champion…"><datalist id="champions"></datalist></div><button id="pin">📌 Pin</button><button id="refresh">↻ Refresh</button><button id="opgg">Open OP.GG</button></header>
+<main><div id="status">Loading champions…</div><div id="content" hidden>
+<div class="meta"><span id="patch"></span><span id="fetched"></span><span>Live OP.GG recommendations</span></div>
+<section id="spellsSection"><h2>Summoner spells</h2><div id="spells"></div></section>
+<section id="skillsSection"><h2>Skills</h2><div id="priority"></div><div id="skillOrder"></div></section>
+<section><h2>Starting sets</h2><div id="starts" class="rows"></div></section>
+<section><h2>Boots</h2><div id="boots" class="items"></div></section>
+<section><h2>Build order</h2><div id="cores" class="rows"></div></section>
+<section><h2>Best augments</h2><div class="tabs"><button data-rarity="2">Prismatic</button><button data-rarity="1">Gold</button><button data-rarity="0">Silver</button></div><div id="augments"></div></section>
+<footer>All recommendations and rankings are read from OP.GG when a champion loads. Riot Data Dragon supplies champion and item artwork. Unofficial and not affiliated with Riot Games or OP.GG.</footer>
+</div></main><script src="renderer.js"></script></body></html>

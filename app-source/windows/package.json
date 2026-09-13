@@ -1,0 +1,7 @@
+{
+  "name": "mayhem-pocket",
+  "version": "1.0.0",
+  "main": "main.js",
+  "description": "OP.GG-only ARAM Mayhem companion",
+  "license": "MIT"
+}
